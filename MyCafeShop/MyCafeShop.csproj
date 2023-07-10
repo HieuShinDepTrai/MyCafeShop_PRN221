@@ -1,0 +1,159 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Image\Food\7-Up.jpg" />
+    <None Remove="Image\Food\Banh Mi Ap Chao.jpg" />
+    <None Remove="Image\Food\Banh Mi Pate.jpg" />
+    <None Remove="Image\Food\Beer 333.jpg" />
+    <None Remove="Image\Food\Beer Heineken.jpg" />
+    <None Remove="Image\Food\Brown Sugar Milk Tea.png" />
+    <None Remove="Image\Food\BubleTea.jpeg" />
+    <None Remove="Image\Food\Bun Dau Mam tom.jpg" />
+    <None Remove="Image\Food\Bun Tron.jpeg" />
+    <None Remove="Image\Food\cach-lam-banh-trang-bo-thom-ngon-cuc-de-lam-202107311752194866.jpg" />
+    <None Remove="Image\Food\Cappuccino.jpg" />
+    <None Remove="Image\Food\Cheese Foam Tea.jpg" />
+    <None Remove="Image\Food\Classic Buble Tea.jpg" />
+    <None Remove="Image\Food\Espressso.jpg" />
+    <None Remove="Image\Food\French Fries.jpg" />
+    <None Remove="Image\Food\Guava %285 Pieces%29.jpg" />
+    <None Remove="Image\Food\Latte.jpeg" />
+    <None Remove="Image\Food\Macchiato.jpg" />
+    <None Remove="Image\Food\Melon %285 Pieces%29.jpg" />
+    <None Remove="Image\Food\Orange Juice Twitster.jpeg" />
+    <None Remove="Image\Food\placeholder %28Custom%29.png" />
+    <None Remove="Image\Food\Pomelo %285 Pieces%29.jpg" />
+    <None Remove="Image\Food\Pound_layer_cake.jpg" />
+    <None Remove="Image\Food\Spicy shredded chicken.jpg" />
+    <None Remove="Image\Food\Spicy shredded pork.jpg" />
+    <None Remove="Image\Food\Sting.jpeg" />
+    <None Remove="Image\Food\Sweet Potato Fried.jpg" />
+    <None Remove="log4net.config" />
+    <None Remove="Views\background.png" />
+    <None Remove="Views\icon.png" />
+    <None Remove="Views\placeholder %28Custom%29.png" />
+    <None Remove="Views\TableLogo %28Custom%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Food\7-Up.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Banh Mi Ap Chao.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Banh Mi Pate.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Beer 333.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Beer Heineken.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Brown Sugar Milk Tea.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\BubleTea.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Bun Dau Mam tom.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Bun Tron.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\cach-lam-banh-trang-bo-thom-ngon-cuc-de-lam-202107311752194866.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Cappuccino.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Cheese Foam Tea.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Classic Buble Tea.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Espressso.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\French Fries.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Guava (5 Pieces).jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Latte.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Macchiato.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Melon (5 Pieces).jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Orange Juice Twitster.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\placeholder (Custom).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Pomelo (5 Pieces).jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Pound_layer_cake.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Spicy shredded chicken.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Spicy shredded pork.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Sting.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Food\Sweet Potato Fried.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="ClosedXML" Version="0.100.3" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\background.png" />
+    <Resource Include="Views\icon.png" />
+    <Resource Include="Views\Logo\icon.png" />
+    <Resource Include="Views\Logo\placeholder %28Custom%29.png" />
+    <Resource Include="Views\Logo\TableLogo %28Custom%29.png" />
+  </ItemGroup>
+
+</Project>
