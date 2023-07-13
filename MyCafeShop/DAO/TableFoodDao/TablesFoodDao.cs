@@ -71,11 +71,19 @@ namespace MyCafeShop.DAO.TableFoodDao {
         public string? GetTableIdMax() {
 
             try {
-                var maxId = DataProvider.Ins.DB.TableFoods.Max(x => x.TableId);
-                if (string.IsNullOrEmpty(maxId)) {
+                var tableIds = DataProvider.Ins.DB.TableFoods.Select(x => x.TableId).ToList();
+                int maxId = -1;
+                foreach (var tableId in tableIds) 
+                { 
+                    if(Convert.ToInt32(tableId) > maxId)
+                    {
+                        maxId = Convert.ToInt32(tableId);
+                    }
+                }
+                if (maxId == -1) {
                     return (0).ToString();
                 } else {
-                    return (Convert.ToInt32(maxId) + 1).ToString();
+                    return (maxId + 1).ToString();
                 }
             } catch (Exception) {
 

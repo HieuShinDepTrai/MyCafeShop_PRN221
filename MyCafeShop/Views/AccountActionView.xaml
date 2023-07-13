@@ -10,7 +10,7 @@
     xmlns:viewmodels="clr-namespace:MyCafeShop.ViewModels"
     x:Name="windowAccountAction"
     Title="AccountActionView"
-    Width="520"
+    Width="1000"
     Height="520"
     Icon="/Views/Logo/icon.png"
     ResizeMode="NoResize"
